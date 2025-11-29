@@ -87,7 +87,7 @@ export default function Header() {
                             key={item.label}
                             href={item.href}
                             className="text-3xl font-tiktok font-bold text-gray-800 hover:text-amber-700 transition duration-200 ease-in-out"
-                            onClick={() => setIsMenuOpen(false)} // Close menu on item click
+                            onClick={() => setIsMenuOpen(false)}
                         >
                             {item.label}
                         </Link>
